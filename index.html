@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle School - Sekolah Unggulan untuk Masa Depan Cerah</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-sans">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white p-4 fixed w-full z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="https://www.instagram.com/eagleschool_/">
+                    <img src="logo.png" alt="Logo Eagle School" class="h-10 w-10 mr-3">
+                </a>
+                <a href="https://www.instagram.com/eagleschool_/" class="text-2xl font-bold">Eagle School</a>
+            </div>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="hover:text-blue-200">Tentang Kami</a></li>
+                <li><a href="#vision" class="hover:text-blue-200">Visi & Misi</a></li>
+                <li><a href="#talents" class="hover:text-blue-200">Talent</a></li>
+                <li><a href="#challenge" class="hover:text-blue-200">Challenge</a></li>
+                <li><a href="#contact" class="hover:text-blue-200">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--Parralax-->
+    <div class="parallax-container">
+        <div id="scene"></div>
+        <div class="content">
+            <h1 class="text-6xl mb-3">EAGLE SCHOOL</h1>
+            <h1 class="text-2xl">WE ARE THE CHAMPION</h1>
+            <a href="#about" class="btn mt-8">Start Now!</a>
+        </div>
+    </div>
+
+    <!-- About Us -->
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-12 text-center animate-on-scroll">Tentang Eagle School</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 animate-on-scroll">
+                    <p class="text-lg leading-relaxed flex items-start">
+                        <i class="mr-2 text-blue-600"></i>
+                        Eagle School adalah lembaga pendidikan unggulan yang berdedikasi untuk membentuk generasi
+                        penerus bangsa yang cerdas, kreatif, dan berkarakter. Didirikan pada tahun 2005, kami telah
+                        berkomitmen untuk memberikan pendidikan berkualitas tinggi yang memadukan kurikulum nasional
+                        dengan program pengembangan bakat dan kepribadian.
+                    </p>
+                    <p class="text-lg leading-relaxed flex items-start">
+                        <i class="mr-2 text-blue-600"></i>
+                        Dengan motto "Terbang Tinggi, Raih Mimpi", kami mendorong setiap siswa untuk berani bermimpi
+                        besar dan memberikan mereka sayap pengetahuan dan keterampilan untuk meraih impian mereka.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="bg-blue-600 text-white py-2 px-6 rounded-full hover:bg-blue-700 transition duration-300 flex items-center">
+                            <i data-feather="clock" class="mr-2"></i>
+                            Sejarah Kami
+                        </a>
+                        <a href="#"
+                            class="border border-blue-600 text-blue-600 py-2 px-6 rounded-full hover:bg-blue-600 hover:text-white transition duration-300 flex items-center">
+                            <i data-feather="list" class="mr-2"></i>
+                            Program Kami
+                        </a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-6 animate-on-scroll">
+                    <div class="stat-card">
+                        <i data-feather="users" class="text-blue-600 mb-2"></i>
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Siswa Aktif</div>
+                    </div>
+                    <div class="stat-card">
+                        <i data-feather="award" class="text-blue-600 mb-2"></i>
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Guru Berpengalaman</div>
+                    </div>
+                    <div class="stat-card">
+                        <i data-feather="star" class="text-blue-600 mb-2"></i>
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Program Unggulan</div>
+                    </div>
+                    <div class="stat-card">
+                        <i data-feather="trending-up" class="text-blue-600 mb-2"></i>
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Tingkat Kelulusan</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision and Mission -->
+    <section id="vision" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center animate-on-scroll">Pesan Kepala Sekolah</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-8 md:mb-0">
+                    <img src="/api/placeholder/300/300" alt="Kepala Sekolah"
+                        class="rounded-full mx-auto animate-on-scroll">
+                </div>
+                <div class="md:w-2/3 md:pl-8">
+                    <blockquote class="text-lg italic animate-on-scroll">
+                        "Di Eagle School, kami tidak hanya mendidik pikiran, tetapi juga membentuk karakter. Visi kami
+                        adalah menciptakan lingkungan belajar yang inspiratif, di mana setiap siswa dapat mengembangkan
+                        potensi terbaiknya dan menjadi pemimpin masa depan yang bertanggung jawab."
+                    </blockquote>
+                    <p class="mt-4 font-bold animate-on-scroll">- Sr Dedie Yulianto, Kepala Sekolah Eagle School</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Talents Section -->
+    <section id="talents" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center animate-on-scroll">Program Unggulan</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="seni">
+                    <h3 class="text-xl font-semibold mb-2">Seni</h3>
+                    <p>Eksplorasi kreativitas melalui berbagai medium seni.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="kerajinan">
+                    <h3 class="text-xl font-semibold mb-2">Kerajinan</h3>
+                    <p>Mengembangkan keterampilan tangan dan desain.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="tatarias">
+                    <h3 class="text-xl font-semibold mb-2">Tata Rias</h3>
+                    <p>Belajar seni merias wajah dan penampilan.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="multimedia">
+                    <h3 class="text-xl font-semibold mb-2">Multimedia</h3>
+                    <p>Menguasai teknologi dan produksi konten digital.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="pemrograman">
+                    <h3 class="text-xl font-semibold mb-2">Pemrograman</h3>
+                    <p>Belajar coding dan pengembangan aplikasi.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="desain">
+                    <h3 class="text-xl font-semibold mb-2">Desain</h3>
+                    <p>Mengasah kemampuan desain grafis dan UI/UX.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="memasak">
+                    <h3 class="text-xl font-semibold mb-2">Memasak</h3>
+                    <p>Mempelajari seni kuliner dan gastronomi.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="teater">
+                    <h3 class="text-xl font-semibold mb-2">Teater</h3>
+                    <p>Mengembangkan bakat akting dan panggung.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="musik">
+                    <h3 class="text-xl font-semibold mb-2">Musik</h3>
+                    <p>Belajar berbagai alat musik dan teori musik.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="produksiMusik">
+                    <h3 class="text-xl font-semibold mb-2">Produksi Musik</h3>
+                    <p>Mempelajari teknik rekaman dan produksi audio.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="bahasaInggris">
+                    <h3 class="text-xl font-semibold mb-2">Bahasa Inggris</h3>
+                    <p>Meningkatkan kemampuan berbahasa Inggris.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md animate-on-scroll cursor-pointer talent-card"
+                    data-talent="vokal">
+                    <h3 class="text-xl font-semibold mb-2">Vokal</h3>
+                    <p>Mengembangkan teknik bernyanyi dan olah vokal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="talentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle" class="text-2xl font-bold"></h2>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+
+    <!--Challenge-->
+    <section id="challenge" class="relative w-full h-[600px] my-10" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-full overflow-hidden rounded-lg shadow-xl">
+            <!-- Item 1 -->
+            <div class="absolute w-full h-full carousel-item active" data-carousel-item>
+                <img src="https://picsum.photos/1920/1080?random=1"
+                    class="absolute block w-full h-full object-cover transition-transform duration-500 ease-in-out transform hover:scale-105"
+                    alt="Gambar 1">
+                <div class="absolute bottom-0 left-0 right-0 px-4 py-8 bg-gradient-to-t from-black to-transparent">
+                    <h1 class="text-4xl font-bold text-white mb-2 fade-in">Gambar 1</h1>
+                    <p class="text-xl text-gray-200 slide-in-right">Deskripsi singkat untuk Gambar 1</p>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="absolute w-full h-full carousel-item active" data-carousel-item>
+                <img src="https://picsum.photos/1920/1080?random=2"
+                    class="absolute block w-full h-full object-cover transition-transform duration-500 ease-in-out transform hover:scale-105"
+                    alt="Gambar 2">
+                <div class="absolute bottom-0 left-0 right-0 px-4 py-8 bg-gradient-to-t from-black to-transparent">
+                    <h1 class="text-4xl font-bold text-white mb-2 fade-in">Gambar 2</h1>
+                    <p class="text-xl text-gray-200 slide-in-left">Deskripsi singkat untuk Gambar 2</p>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="absolute w-full h-full carousel-item active" data-carousel-item>
+                <img src="https://picsum.photos/1920/1080?random=3"
+                    class="absolute block w-full h-full object-cover transition-transform duration-500 ease-in-out transform hover:scale-105"
+                    alt="Gambar 3">
+                <div class="absolute bottom-0 left-0 right-0 px-4 py-8 bg-gradient-to-t from-black to-transparent">
+                    <h1 class="text-4xl font-bold text-white mb-2 fade-in">Gambar 3</h1>
+                    <p class="text-xl text-gray-200 slide-in-right">Deskripsi singkat untuk Gambar 3</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+            <button type="button" class="w-4 h-4 rounded-full bg-white/30 hover:bg-white transition-colors duration-300"
+                aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-4 h-4 rounded-full bg-white/30 hover:bg-white transition-colors duration-300"
+                aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button" class="w-4 h-4 rounded-full bg-white/30 hover:bg-white transition-colors duration-300"
+                aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        </div>
+
+        <!-- Slider controls -->
+        <button type="button"
+            class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev>
+            <span
+                class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none transition-all duration-300 ease-in-out">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button"
+            class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next>
+            <span
+                class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none transition-all duration-300 ease-in-out">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+    </section>
+
+
+    <!--Prestasi-->
+    <div id="prestasi" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-extrabold text-gray-900">Prestasi Kami</h2>
+            <p class="mt-4 text-lg text-gray-600">Berikut adalah beberapa prestasi yang telah kami capai selama ini:</p>
+
+            <!-- Achievement Cards -->
+            <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div
+                    class="achievement-card bg-white shadow-lg p-6 rounded-lg hover:scale-105 transform transition-all duration-300 ease-in-out">
+                    <div class="icon mb-4 text-indigo-600">
+                        🏆
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800">Juara Hackathon 2023</h3>
+                    <p class="mt-2 text-gray-600">Memenangkan kompetisi hackathon tingkat nasional dengan solusi
+                        inovatif.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="achievement-card bg-white shadow-lg p-6 rounded-lg hover:scale-105 transform transition-all duration-300 ease-in-out">
+                    <div class="icon mb-4 text-yellow-600">
+                        🥇
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800">Best Startup Award</h3>
+                    <p class="mt-2 text-gray-600">Mendapatkan penghargaan sebagai startup terbaik di event
+                        internasional.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="achievement-card bg-white shadow-lg p-6 rounded-lg hover:scale-105 transform transition-all duration-300 ease-in-out">
+                    <div class="icon mb-4 text-green-600">
+                        🚀
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800">Inovasi Teknologi Terbaik</h3>
+                    <p class="mt-2 text-gray-600">Dikenal dengan produk inovatif yang mendobrak pasar teknologi.</p>
+                </div>
+            </div>
+
+            <!-- Counter Section -->
+            <div class="mt-16 flex justify-center space-x-8">
+                <div class="text-center">
+                    <h3 class="text-4xl font-bold text-indigo-600 counter" data-target="50">0</h3>
+                    <p class="text-lg text-gray-600">Penghargaan</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-4xl font-bold text-yellow-600 counter" data-target="150">0</h3>
+                    <p class="text-lg text-gray-600">Proyek Selesai</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-4xl font-bold text-green-600 counter" data-target="200">0</h3>
+                    <p class="text-lg text-gray-600">Klien</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-blue-600 text-white text-center overflow-hidden">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-extrabold mb-4" id="cta-title">Bergabunglah dengan Eagle School!</h2>
+            <p class="text-2xl mb-8" id="cta-subtitle">Wujudkan impian dan kembangkan potensimu bersama kami.</p>
+            <a href="#"
+                class="bg-white text-blue-600 py-4 px-10 rounded-full text-lg font-semibold transition duration-300 transform hover:scale-105 hover:bg-blue-200 shadow-lg hover:shadow-2xl"
+                id="cta-button">Daftar Sekarang</a>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center animate-on-scroll">Hubungi Kami</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0 animate-on-scroll">
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block mb-2">Nama</label>
+                            <input type="text" id="name" name="name" class="w-full p-2 border rounded" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full p-2 border rounded" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block mb-2">Pesan</label>
+                            <textarea id="message" name="message" rows="4" class="w-full p-2 border rounded"
+                                required></textarea>
+                        </div>
+                        <button type="submit"
+                            class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition duration-300">Kirim
+                            Pesan</button>
+                    </form>
+                </div>
+                <div class="md:w-1/2 md:pl-8 animate-on-scroll">
+                    <h3 class="text-xl font-semibold mb-4">Lokasi Kami</h3>
+                    <p class="mb-4">Jl. Delta Mas VII, Panggung Lor, Kec. Semarang Utara, Kota Semarang, Jawa Tengah</p>
+                    <div class="aspect-w-16 aspect-h-9">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.4396385003192!2d110.40868807410713!3d-6.957353568114549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70f5edf50ca5b9%3A0xf4c634696d37ff96!2sEagle%20School!5e0!3m2!1sid!2sid!4v1727118892771!5m2!1sid!2sid"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            style="border:0;" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <!--Script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!--JS-->
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+
+
+    </script>
+</body>
+
+</html>
